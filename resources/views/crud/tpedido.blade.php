@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Tabla pedido</title>
+    <title>Tabla Pedido</title>
     
     <!-- CSS Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -20,23 +20,23 @@
 
             <div class="col-lg-8 col-md-8 col-sm-12">
 
-                <form action="ajax.php" method="POST" id="formularioAjax">
+                <form action="ajax.php" method="POST" id="formularioAjax" class="rounded bg-light">
 
                     <h1 class="text-center bg-primary text-white"> Pedido</h1>
 
                     <div class="row p-2">
                         <div class="col-6">
                             Fecha Pedido
-                            <input type="text" class="form-control" name="txtNombres">
+                            <input type="text" class="form-control" name="txtFechaPedido">
                         </div>
                         <div class="col-6">
                             Fecha Entrega
-                            <input type="text" class="form-control" name="txtApellidos">
+                            <input type="text" class="form-control" name="txtFechaEntrega">
                         </div>
                         
                         <div class="col-12 p-2">
                             Observaciones
-                            <textarea type="text" class="form-control" name="txtDireccion"></textarea>
+                            <textarea type="text" class="form-control" name="txtObservaciones"></textarea>
                         </div>
                     </div>
                     <!-- botones para CRUD -->
@@ -60,7 +60,7 @@
                     </div>
 
                     <!-- Notar que es type = "button" para evitar que envie el formulario -->
-                    <button type="button" id="boton" class="btn btn-block bg-primary mt-4">ENVIAR</button><br>
+                    <button type="button" id="boton" class="btn btn-block bg-primary font-weight-bold mt-4"><p  style="color: white">ENVIAR</p></button><br>
                 </form>
             </div>
         </div>
