@@ -27,11 +27,11 @@
                     <div class="row p-2">
                         <div class="col-6">
                             Fecha Pedido
-                            <input type="text" class="form-control" name="txtFechaPedido">
+                            <input type="date" class="form-control" name="dateFechaPedido">
                         </div>
                         <div class="col-6">
                             Fecha Entrega
-                            <input type="text" class="form-control" name="txtFechaEntrega">
+                            <input type="date" class="form-control" name="dateFechaEntrega">
                         </div>
                         
                         <div class="col-12 p-2">

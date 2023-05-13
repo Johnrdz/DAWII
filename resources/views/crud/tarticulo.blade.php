@@ -31,15 +31,15 @@
                         </div>
                         <div class="col-6">
                             Descripcion
-                            <input type="text" class="form-control" name="txtDescripcion">
+                            <textarea type="text" class="form-control" name="txtDescripcion"></textarea>
                         </div>
                         <div class="col-6 p-2">
                                 Cantidad Inventario
-                            <input type="text" class="form-control" name="txtCantInventario">
+                            <input type="number" class="form-control" name="txtCantInventario">
                         </div>
                         <div class="col-6 p-2">
                             Precio
-                            <input type="text" class="form-control" name="txtPrecio">
+                            <input type="number" class="form-control" name="txtPrecio" min="0" max="100">
                         </div>
 
                     </div>

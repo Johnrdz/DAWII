@@ -36,7 +36,7 @@
                         
                         <div class="col-12 p-2">
                             Fecha de Nacimiento
-                            <textarea type="text" class="form-control" name="txtFechaNac"></textarea>
+                            <input type="date" class="form-control" name="dateFechaNac">
                         </div>
                     </div>
                     
