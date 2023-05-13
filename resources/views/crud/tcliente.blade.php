@@ -20,7 +20,7 @@
 
             <div class="col-lg-8 col-md-8 col-sm-12">
 
-                <form action="ajax.php" method="POST" id="formularioAjax"  class="rounded bg-light">
+                <form action="cliente.php" method="POST" id="formularioCliente"  class="rounded bg-light">
 
                     <h1 class="text-center bg-primary text-white">Cliente</h1>
 
@@ -71,18 +71,10 @@
     
             </div>
         </div>
-<!-- Importamos los scripts de sweerAlert2 -->
-<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     
 <!-- Importamos los scripts de bootstrap -->
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     
-<!-- Buscamos la pagina de jQuery y importamos el escript -->
-<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-    
-<!-- Importamos nuestros scripts-->
-<script src="./ajax.js"></script>
-
 </body>
 </html>
