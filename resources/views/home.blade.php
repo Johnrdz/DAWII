@@ -12,7 +12,7 @@
 </head>
 <body style="background-color: #079e23">
     
-    <br><Center><h1 style="color: rgb(0, 0, 0)"><b>Examen Practico II TDSV11C</b></h1></Center>
+    <br><Center><h1 style="color: rgb(0, 0, 0)"><b>Examen Practico 2 TDSV11C</b></h1></Center>
     
     <Center><a href="/alumno/alumno1" style="text-decoration: none"><h2>Estefany Azucena Benitez Vasquez</h2></a></Center>
     <Center><a href="/alumno/alumno2" style="text-decoration: none"><h2>Carlos Jonathan Rodriguez Tobar</h2></a></Center><br>
