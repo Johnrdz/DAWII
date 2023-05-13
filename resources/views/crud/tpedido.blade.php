@@ -22,83 +22,45 @@
 
                 <form action="ajax.php" method="POST" id="formularioAjax">
 
-                    <h1 class="text-center bg-primary text-white">Informacion</h1>
+                    <h1 class="text-center bg-primary text-white"> Pedido</h1>
 
-                    <div class="row">
+                    <div class="row p-2">
                         <div class="col-6">
-                            Nombres
+                            Fecha Pedido
                             <input type="text" class="form-control" name="txtNombres">
                         </div>
                         <div class="col-6">
-                            Apellidos
+                            Fecha Entrega
                             <input type="text" class="form-control" name="txtApellidos">
                         </div>
-                        <div class="col-6">
-                            DUI
-                            <input type="text" class="form-control" name="txtDUI">
-                        </div>
-                        <div class="col-6">
-                            Direccion
+                        
+                        <div class="col-12 p-2">
+                            Observaciones
                             <textarea type="text" class="form-control" name="txtDireccion"></textarea>
                         </div>
-                    </div><br>
-
-                    Carreras
-                    <select class="form-control" name="Carrera">
-                        <option></option>
-                        <option value="Mecanica">Ing. Mecanica</option>
-                        <option value="Electrica">Ing. Electrica</option>
-                        <option value="Medicina">Medicina</option>
-                        <option value="Adminitracion">Lic. Adminitracion</option>
-                        <option value="Psicologia">Psicología</option>
-                    </select><br>
-
-                    <div class="row">
-                        <div class="col-4">
-                            Paises <br>
-                            <div class="form-check">
-                                <input type="radio" class="form-check-input" name="pais" value="El Salvador">El Salvador
-                            </div>
-                            <div class="form-check">
-                                <input type="radio" class="form-check-input" name="pais" value="Costa Rica">Costa Rica
-                            </div>
-                            <div class="form-check">
-                                <input type="radio" class="form-check-input" name="pais" value="Guatemala">Guatemala
-                            </div>
-                            <div class="form-check">
-                                <input type="radio" class="form-check-input" name="pais" value="Honduras">Honduras
-                            </div>
-                        </div>
-
-                        <div class="col-4">
-                            Deportes <br>
-                            <div class="form-check">
-                                <input type="checkbox" name="deporte[]" class="form-check-input" value="Futbol">Futbol
-                            </div>
-                            <div class="form-check">
-                                <input type="checkbox" name="deporte[]" class="form-check-input" value="Basketball">Backetball
-                            </div>
-                            <div class="form-check">
-                                <input type="checkbox" name="deporte[]" class="form-check-input" value="Softball">Softball
-                            </div>
-                        </div>
-
-                        <div class="col-4">
-                            Colores <br>
-                            <div class="form-check">
-                                <input type="checkbox" name="color[]" class="form-check-input" value="Blanco">Blanco
-                            </div>
-                            <div class="form-check">
-                                <input type="checkbox" name="color[]" class="form-check-input" value="Negro">Negro
-                            </div>
-                            <div class="form-check">
-                                <input type="checkbox" name="color[]" class="form-check-input" value="Azul">Azul
-                            </div>
-                        </div>
-                            
                     </div>
+                    <!-- botones para CRUD -->
+                    <div class="row p-2">   
+                        <!-- agregar  -->
+                        <div class="col-3">
+                            <button type="submit" class="btn btn-danger btn-lg btn-block font-weight-bold"><a href="/CRUD/tpedido" style="text-decoration: none"><p style="color: white"> Agregar</p></a></button>
+                        </div>
+                        <!-- Editar  -->
+                        <div class="col-3">
+                            <button type="submit" class="btn btn-danger btn-lg btn-block font-weight-bold"><a href="/CRUD/tpedido" style="text-decoration: none"><p style="color: white"> Editar</p></a></button>
+                        </div>
+                        <!-- Borrar  -->
+                        <div class="col-3">
+                            <button type="submit" class="btn btn-danger btn-lg btn-block font-weight-bold"><a href="/CRUD/tpedido" style="text-decoration: none"><p style="color: white">Eliminar</p></a></button>
+                        </div>
+                        <!-- Actualizar  -->
+                        <div class="col-3">
+                            <button type="submit" class="btn btn-danger btn-lg btn-block font-weight-bold"><a href="/CRUD/tpedido" style="text-decoration: none"><p style="color: white"> Actualizar</p></a></button>
+                        </div>
+                    </div>
+
                     <!-- Notar que es type = "button" para evitar que envie el formulario -->
-                    <button type="button" id="boton" class="btn btn-block btn-danger mt-4">ENVIAR</button><br>
+                    <button type="button" id="boton" class="btn btn-block bg-primary mt-4">ENVIAR</button><br>
                 </form>
             </div>
         </div>

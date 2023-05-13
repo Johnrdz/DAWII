@@ -10,14 +10,14 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
 </head>
-<body style="background-color: #079e23">
+<body style="background-color: #079e23" class= " pt-4">
     
     <br><Center><h1 style="color: rgb(0, 0, 0)"><b>Examen Practico II TDSV11C</b></h1></Center>
     
     <Center><a href="/alumno/alumno1" style="text-decoration: none"><h2>Estefany Azucena Benitez Vasquez</h2></a></Center>
-    <Center><a href="/alumno/alumno2" style="text-decoration: none"><h2>Carlos Jonathan Rodriguez Tobar</h2></a></Center><br>
+    <Center><a href="/alumno/alumno2" style="text-decoration: none"><h2>Carlos Jonathan Rodriguez Tobar</h2></a></Center>
 
-    <div class="container-sm">
+    <div class="container-sm pt-4">
     <button type="submit" class="btn btn-danger btn-lg btn-block font-weight-bold"><a href="/crud/tpedido" style="text-decoration: none"><h2 style="color: white"> Pedido</h2></a></button>
     <button type="submit" class="btn btn-danger btn-lg btn-block font-weight-bold"><a href="/crud/tcliente" style="text-decoration: none"><h2 style="color: white"> Cliente</h2></a></button>
     <button type="submit" class="btn btn-danger btn-lg btn-block font-weight-bold"><a href="/crud/tarticulo" style="text-decoration: none"><h2 style="color: white"> Articulo</h2></a></button>
