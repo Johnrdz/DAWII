@@ -41,11 +41,7 @@
                             Precio
                             <input type="text" class="form-control" name="txtPrecio">
                         </div>
-                        
-                        <!--<div class="col-12 p-2">
-                            Observaciones
-                            <textarea type="text" class="form-control" name="txtDireccion"></textarea>
-                        </div>-->
+
                     </div>
                     <!-- botones para CRUD -->
                     <div class="row p-2">   
@@ -88,8 +84,6 @@
 <!-- Buscamos la pagina de jQuery y importamos el escript -->
 <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     
-<!-- Importamos nuestros scripts-->
-<script src="./ajax.js"></script>
 
 </body>
 </html>
